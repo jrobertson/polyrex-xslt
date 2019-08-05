@@ -85,7 +85,8 @@ class PolyrexXSLT
         end        
 
         xml.records do
-          xml.xsl_apply_templates(select:  a2[1][0]) if a2
+          field = a2 ? a2[1][0] : a1[1][0]
+          xml.xsl_apply_templates(select:  field) 
         end
       end 
     end

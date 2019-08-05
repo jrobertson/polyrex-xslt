@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'polyrex-xslt'
-  s.version = '0.2.1'
+  s.version = '0.2.2'
   s.summary = 'Generates XSLT to produce a Polyrex document from a tree-like XML structure.'
     s.authors = ['James Robertson']
   s.files = Dir['lib/polyrex-xslt.rb'] 
