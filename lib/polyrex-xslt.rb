@@ -57,13 +57,6 @@ class PolyrexXSLT
         gsub('xsl_template','xsl:template').gsub('xsl_','xsl:').\
         gsub('xmlns_xsl','xmlns:xsl')
     
-header = %q(
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-<xsl:output method="xml" indent="yes" />
-)
-
-    header + xml2
     
   end
 
